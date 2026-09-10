@@ -22,7 +22,7 @@ const experiences = [
     period: 'Oct 2025 – Mar 2026',
     stack: ['LLM', 'Python', 'Azure', 'GCP', 'React'],
     bullets: [
-      'Reduced manual support queries by ~30% by building a GenAI-powered semantic search system over 100+ operational documents via a RAG pipeline (Groq LLM, FAISS, BGE-base-en-v1.5)',
+      'Engineered and deployed a production RAG-based maintenance assistant for field engineers, integrating Python, FastAPI, SharePoint and website ingestion, structure-aware chunking, BGE-large embeddings, Pinecone vector search and PostgreSQL metadata. The system retrieves and reranks relevant content, applies permission-aware filtering, and generates citation-backed responses using an OpenAI LLM, with refusal handling when evidence is insufficient. Evaluated GTE-base against BGE-large across retrieval and end-to-end RAG metrics, with BGE-large achieving 91% Recall@5, 95% Recall@10, 0.81 MRR, 96% answer correctness, 98% groundedness, 97% citation accuracy, 1% hallucination rate and 94% refusal accuracy. Deployed as Dockerised services on GCP with production monitoring, security controls, failure handling and regression testing.',
       'Increased operational efficiency by 35% with a GPT-4.1 powered KPI insight engine integrating live Salesforce and Webfleet data via an ETL pipeline.',
       'Improved marketing targeting accuracy by 25% delivering a customer segmentation dashboard uncovering high-value segments from 13,000+ records.',
       'Reduced onboarding time by 40% across 335+ users with a centralized LMS with JWT auth and role-based access control.',
@@ -39,17 +39,7 @@ const experiences = [
       'Reduced mean time to detect incidents by ~35% across ERP and DMS clients by managing Power BI dashboards monitoring performance metrics.',
     ],
   },
-  {
-    role: 'Data Analyst',
-    company: 'Foliage Outdoors',
-    location: 'Pune, India',
-    period: 'Aug 2022 – Jan 2023',
-    stack: ['PowerBI', 'Excel', 'Python'],
-    bullets: [
-      'Recovered 25% of lost client contracts within one quarter by building financial projections that drove the decision to prioritise school partnerships.',
-      'Improved profitability projection accuracy by 15% by conducting field research across multiple vendors and updating cost models accordingly.',
-    ],
-  },
+
 ];
 
 export default function ExperiencePanel() {

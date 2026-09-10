@@ -26,6 +26,8 @@ export default function Home() {
         position: 'relative',
         overflow: 'hidden',
       }}>
+        
+
         <RobotScene />
 
         <div style={{
