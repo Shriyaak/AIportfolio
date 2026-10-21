@@ -97,7 +97,7 @@ export default function RobotScene() {
         right: 0,
         width: '180px',
         height: '36px',
-        background: 'rgb(277,277,277)',
+        background: '#e0e0e0',
         zIndex: 30,
         pointerEvents: 'none',
       }} />
